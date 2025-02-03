@@ -1,0 +1,217 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f8ff; /* Light Blue */
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Home Section */
+  .home {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #008080; /* Teal */
+    color: #fff;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+  }
+  
+  .home h1 {
+    font-size: 2.5rem;
+    margin: 20px 0 10px;
+  }
+  
+  .home p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Skills Section */
+  .skills {
+    padding: 50px 0;
+    background-color: #fff;
+  }
+  
+  .skills h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #008080; /* Teal */
+    margin-bottom: 30px;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .skills-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #f0f8ff; /* Light Blue */
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .skills-list li i {
+    color: #008080; /* Teal */
+  }
+  
+  /* Projects Section */
+  .projects {
+    padding: 50px 0;
+    background-color: #f0f8ff; /* Light Blue */
+  }
+  
+  .projects h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #008080; /* Teal */
+    margin-bottom: 30px;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project-card h3 {
+    font-size: 1.5rem;
+    color: #008080; /* Teal */
+    margin-bottom: 10px;
+  }
+  
+  .project-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #ff6f61; /* Coral */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-card a:hover {
+    background-color: #ff3b2f; /* Darker Coral */
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 50px 0;
+    background-color: #fff;
+  }
+  
+  .contact h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #008080; /* Teal */
+    margin-bottom: 30px;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact input,
+  .contact textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact button {
+    padding: 10px;
+    background-color: #ff6f61; /* Coral */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact button:hover {
+    background-color: #ff3b2f; /* Darker Coral */
+  }
+  
+  .social-links {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #008080; /* Teal */
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #ff6f61; /* Coral */
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #008080; /* Teal */
+    color: #fff;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .skills-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
